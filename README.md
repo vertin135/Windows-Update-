@@ -198,4 +198,3 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
 3. 因修改脚本、非管理员运行、系统环境异常等原因导致的系统问题，脚本作者不承担任何责任；
 
 4. 本脚本为开源免费工具，仅限个人非商业使用，禁止用于商业盈利场景。
-> （注：文档部分内容可能由 AI 生成）
