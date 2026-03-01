@@ -179,16 +179,6 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
 
 2. 推荐安装**PowerShell 7+**，下载地址：[PowerShell 官方下载](https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4)。
 
-## 脚本执行流程
-
-```Plain Text
-
-1. 初始化配置 → 2. 管理员权限校验（自动提权） → 3. 执行策略校验（临时放宽）
-→ 4. 缓存服务状态 → 5. 停止更新相关服务 → 6. 交互式清理确认
-→ 7. 异步备份缓存文件（后台） → 8. 批量/并行清理缓存文件 → 9. 等待备份完成
-→ 10. 重启更新相关服务 → 11. 批量写入操作日志 → 12. 退出脚本
-```
-
 ## 免责声明
 
 1. 本脚本仅用于清理Windows/Office更新缓存，**请勿修改核心逻辑**，避免误删系统文件；
