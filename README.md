@@ -48,7 +48,7 @@
 
 ## 脚本信息
 
-- **脚本名称**：CleanUpdatesFiles.ps1
+- **脚本名称**：WindowsUpdatesClean.ps1
 
 - **适用系统**：Windows 10/11 32/64位
 
@@ -66,7 +66,7 @@
 
 ### 步骤1：下载脚本
 
-将脚本文件`CleanUpdatesFiles.ps1`保存至本地任意目录（如桌面、下载文件夹）。
+将脚本文件`WindowsUpdatesClean.ps1`保存至本地任意目录（如桌面、下载文件夹）。
 
 ### 步骤2：运行脚本
 
@@ -140,7 +140,7 @@ $fileTypes = @("*.cab", "*.msu", "*.pkg", "*.cat", "*.msp")
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
 ```
 
-再切换到脚本目录重新运行：`.\CleanUpdatesFiles.ps1`。
+再切换到脚本目录重新运行：`.\WindowsUpdatesClean.ps1`。
 
 ### Q2：清理后部分文件删除失败？
 
@@ -198,3 +198,4 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
 3. 因修改脚本、非管理员运行、系统环境异常等原因导致的系统问题，脚本作者不承担任何责任；
 
 4. 本脚本为开源免费工具，仅限个人非商业使用，禁止用于商业盈利场景。
+> （注：文档部分内容可能由 AI 生成）
